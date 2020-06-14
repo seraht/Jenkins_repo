@@ -4,4 +4,4 @@ WORKDIR /opt
 ADD / /opt
 
 
-ENTRYPOINT ["python", "-u" , "/opt/main.py","$num"]
+ENTRYPOINT ["python", "-u" , "/opt/main.py","5"]
