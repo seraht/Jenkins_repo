@@ -4,4 +4,4 @@ WORKDIR /opt
 ADD / /opt
 
 
-ENTRYPOINT ["python", "-u" , "/opt/main.py","5"]
+ENTRYPOINT python -u /opt/main_loop.py $URL
