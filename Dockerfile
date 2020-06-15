@@ -4,4 +4,4 @@ WORKDIR /opt
 ADD / /opt
 ENV URL = $URL
 
-ENTRYPOINT python -u /opt/get_html.py $URL
+ENTRYPOINT ["python", "-u", "/opt/get_html.py" ,"$URL"]
