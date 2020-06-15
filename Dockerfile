@@ -4,4 +4,4 @@ WORKDIR /opt
 ADD / /opt
 
 
-ENTRYPOINT python -u /opt/main_loop.py $URL
+ENTRYPOINT python -u /opt/get_html.py $URL
