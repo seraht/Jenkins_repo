@@ -1,7 +1,7 @@
 """gets a list of comma delimited urls as an input from a Jenkins job
 and, loops over each url and prints the HTML of that url."""
 import sys
-import urllib
+import urllib.request
 
 if __name__ == "__main__":
     urls = sys.argv[1]
