@@ -4,7 +4,7 @@ from time import sleep
 if __name__ == "__main__":
     num = sys.argv[1]
     for i in range(int(num)):
-        print(str(i) + " " + str(i+1))
+        print(str(i) + " " + str(i**2))
         sleep(1)
 
 
